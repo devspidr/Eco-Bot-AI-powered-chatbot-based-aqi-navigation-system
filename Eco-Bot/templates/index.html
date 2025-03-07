@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered EcoBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        AI-Powered EcoBot for Smart & Eco-Friendly Navigation System
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>AQI-Based Navigation Bot</h2>
+
+        <label>Enter Source:</label>
+        <input type="text" id="source" placeholder="Enter source location">
+
+        <label>Enter Destination:</label>
+        <input type="text" id="destination" placeholder="Enter destination">
+
+        <button onclick="findBestRoute()">Find Best Route</button>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p><strong>Developed by Team EcoBot</strong></p>
+        <p>Email: <a href="mailto:ecobot2025@gmail.com">ecobot2025@gmail.com</a></p>
+        <p>© 2025 EcoBot. All Rights Reserved.</p>
+    </div>
+
+    <script>
+        function findBestRoute() {
+            let source = document.getElementById("source").value;
+            let destination = document.getElementById("destination").value;
+
+            if (!source || !destination) {
+                alert("Please enter both source and destination.");
+                return;
+            }
+
+            window.location.href = `/find_best_route?source=${encodeURIComponent(source)}&destination=${encodeURIComponent(destination)}`;
+        }
+    </script>
+
+</body>
+</html>
+-
