@@ -2,15 +2,6 @@
 
 Welcome to the **EcoBot** project! This is an **AI-powered chatbot-based navigation system** designed to promote eco-friendly travel by providing users with the best routes based on air quality index (AQI) and recommending sustainable transportation options. Whether you're a developer, environmental enthusiast, or just curious, we're excited to have you here!
 
-## 📚 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
 
 ## 📌 Project Overview
 
@@ -53,7 +44,7 @@ OPENAI_API_KEY=your_openai_api_key
 python app.py
 ```
 
-###5️⃣ Access the application
+### 5️⃣ Access the application
 ```bash
 http://127.0.0.1:5000
 ```
