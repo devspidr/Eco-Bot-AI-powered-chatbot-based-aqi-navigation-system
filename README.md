@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ### 3️⃣ Set up environment variables
 Create a .env file in the root directory and add the following keys:
 ```bash
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-AQICN_API_KEY=your_aqicn_api_key
-OPENAI_API_KEY=your_openai_api_key
+GOOGLE_MAPS_API_KEY="AIzaSyATWInFL0lPFJcCUE5DSZmtFG5SpANaCrA"
+AQICN_API_KEY="f99b778a6ca3623d12fcab9584a90095131c920d"
+OPENAI_API_KEY="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"
 ```
 
 ### 4️⃣ Run the application
