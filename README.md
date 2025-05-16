@@ -2,7 +2,7 @@
 
 Welcome to the **EcoBot** project! This is an **AI-powered chatbot-based navigation system** designed to promote eco-friendly travel by providing users with the best routes based on air quality index (AQI) and recommending sustainable transportation options. Whether you're a developer, environmental enthusiast, or just curious, we're excited to have you here!
 
-
+ 
 ## 📌 Project Overview
 
 EcoBot is a **smart navigation assistant** that helps users find the best travel routes while considering environmental factors like air quality. It integrates **Google Maps API** for route planning, **AQI data** for air quality analysis, and **OpenAI GPT** for intelligent chatbot interactions. The goal is to encourage users to adopt eco-friendly travel habits and reduce their carbon footprint.
