@@ -1,7 +1,7 @@
 # EcoBot 🌱
 
 Welcome to the **EcoBot** project! This is an **AI-powered chatbot-based navigation system** designed to promote eco-friendly travel by providing users with the best routes based on air quality index (AQI) and recommending sustainable transportation options. Whether you're a developer, environmental enthusiast, or just curious, we're excited to have you here!
-
+ 
  
 ## 📌 Project Overview
 
